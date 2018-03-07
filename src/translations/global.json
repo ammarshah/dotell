@@ -1,0 +1,98 @@
+{
+  "login": ["Login", "Logga in"],
+  "do_the_test": ["Do the test", "Gör testet"],
+  "legit_therapists": ["For legitimized therapists", "För legitimerade terapeuter"],
+  "search": ["Search", "Sök"],
+  "message": {
+    "left_nav": {
+      "my_profile": ["My Profile", "Min profil"],
+      "messaging": ["Messaging", "Meddelanden"],
+      "message": ["Message", "Meddelande"],
+      "meeting_list": ["Meeting List", "Möteslista"],
+      "calendar": ["Calendar", "Kalender"],
+      "account_information": ["Account Information", "Kontoinformation"],
+
+      "inbox": ["Inbox", "Inkorg"],
+      "new_message": ["New Message", "Nytt-meddelande"],
+      "to": ["To", "Till"],
+      "kbt_placeholder": ["Newxad KBT student seeks PTP employment", "Nyexad KBT-student söker PTP-anställning"],
+      "subject": ["Subject", "Ämne"],
+      "starred": ["Starred", "Stjärnmärkt"],
+      "send": ["Send", "Skicka"],
+      "sent": ["Sent", "skickade"],
+      "trash_can": ["Trash Can", "papperskorgen"]
+    }
+  },
+  "ads": {
+    "all_ads": ["All Ads", "Alla annonser"],
+    "create_new_ad": ["Create New Ad", "Skapa ny annons"],
+    "create_ad": ["Create Ad", "Skapa annons"],
+    "my_ads": ["My Ads", "Mina annonser"],
+    "advertisement": ["Advertisement", "Annons"],
+    "send_message": ["Send Message", "Skicka meddelande"],
+    "form": {
+      "business": ["Business", "Företagsinformation"],
+      "geo_location": ["Geographical location", "Geografisk plats"],
+      "category": ["Category", "Kategori"],
+      "ad_description": ["Advertisement Description", "Annonsbeskrivning"],
+      "ad_content": ["Ad Content", "Annonsinnehåll"],
+      "keyword": ["Keyword", "Nyckelord"],
+      "hide_in_ad": ["Hide in ad", "Dölj i annonsen"],
+      "pictures": ["Pictures", "Bilder"],
+      "preview_ad": ["Preview Ad", "Förhandsvisa annonsen"],
+      "submit_ad": ["Submit your Ad", "Lägg in annonsen"],
+      "free": ["Free", "Gratis"],
+      "type_of_item": ["Type of Item", "Typ av föremål"],
+      "place": ["Place", "Plats"],
+      "price": ["Price", "Pris"],
+      "advertisement_title": ["Advertisement Title", "Annonsrubrik"],
+      "room": ["Room", "rum"],
+      "sq": ["Sq", "kvm"],
+      "print": ["Print", "Skriv"]
+    }
+  },
+
+  "admin": {
+    "nav": {
+      "booking_list": ["Booking List", "Bokningslista"],
+      "incomplete_bookings": ["Incomplete Bookings", "Inkompletta bokningar"],
+      "registered_therapist": ["Registered Therapists", "Registrerade terapeuter"],
+      "registered_patients": ["Registered Patients", "Registrerade patienter"],
+      "registered_companies": ["Registered Companies", "Registrerade företag"],
+      "edit_homepage": ["Edit Homepage", "Redigera startsida"],
+      "manage_users": ["Manage Users", "Administrera användare"],
+      "economy": ["Economy", "Ekonomi"]
+    },
+    "sender": ["Sender", "Avsändare"],
+    "phone_num": ["Phone Number", "Telefonnummer"],
+    "pwd": ["Password", "Lösenord"],
+    "repeat_pwd": ["Repeat Password", "Upprepa lösenord"],
+    "edit": ["Edit", "Ändra"],
+    "delete": ["Delete", "Radera"],
+    "add_user": ["Add User", "Lägg till användare"],
+    "create_user": ["Create User", "Skapa användare"],
+    "first_name": ["First Name", "Förnamn"],
+    "surname": ["Surname", "Efternamn"],
+    "email_address": ["Email Address", "Mejladress"],
+    "repeat_email": ["Repeat Email Address", "Upprepa mejladress"],
+    "required_fields": ["Required Fields", "Obligatoriska fält"],
+    "edit_user": ["Edit User", "Redigera användare"],
+    "save": ["Save", "Spara"],
+    "delete_user": ["Delete user", "Ta bort användare"],
+    "delete_warning_msg": ["Are you sure you want to delete this user?", "Är du säker på att du vill ta bort den här användaren?"],
+    "yes_takeaway": ["Yes, take away", "Ja, ta bort"],
+    
+    
+    "therapist": ["Therapist", "Terapeut"],
+    "inquiry": ["Inquiry", "Förfrågan"],
+    "personal_id": ["Personal ID", "Personnr"],
+    "city": ["City", "Stad"],    
+    "regions": ["Regions", "Landsting"],
+    "payment": ["Payment", "Betalning"],
+    "payment_status": ["Payment Status", "Betalningsstatus"],
+    "last_login": ["Last Login", "Senaste inlogg"],
+    "reservations": ["Reservations", "Bokningar"],
+    "": ["", ""]
+  }
+
+}

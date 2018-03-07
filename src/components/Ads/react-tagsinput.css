@@ -1,0 +1,11 @@
+.react-tagsinput {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow: hidden;  
+}
+
+.react-tagsinput-tag {
+  background-color: #F9F6F1;
+  border: 1px solid #eadfce;
+  color: #d39176;  
+}

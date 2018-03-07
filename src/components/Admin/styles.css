@@ -1,0 +1,125 @@
+.navbar-nav > li > a {
+  padding: 15px 10px 5px 10px;
+  border-bottom: 1px solid transparent;
+  margin: 0 20px 15px 0;
+transition:1s ease;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  border-bottom: 1px solid #7a8a99;
+  padding: 15px 10px 5px 10px;
+  margin: 0 20px 15px 0;
+  transition:1s ease;
+}
+.log-btn {
+  background: #fff !important;
+  color: #3a86be;
+  border: 1px solid #3a86be !important;
+  border-radius: 15px;
+  text-shadow: 0 0 0 transparent;
+}
+.log-btn:hover {
+  background: #fff !important;
+  color: #3a86be;
+  border: 1px solid #3a86be;  
+}
+
+.list-bg {
+  background: #89babe;
+  padding: 0;
+  min-height: 600px;  
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  z-index: 2;
+  color: #fff;
+  background: #587B90;
+  border-color: #587B90;
+}
+
+.list-bg .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  text-shadow: 0 -1px 0 #587B90;
+  background-image: linear-gradient(to bottom, #587B90 0%, #587B90 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2b669a', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #587B90;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.list-group-item{
+  background:none;
+  border:1px solid #8ab3b2;
+  border-left:0px;
+  border-right:0px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #669cb0;
+}
+a.list-group-item, button.list-group-item {
+  color: #fff;
+}
+.list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.details-bg {
+  background: #edf1f4;	
+min-height: 600px;
+}
+.table > thead > tr > th {
+  color: #3a86be;
+  font-size: 12px;
+  font-weight: lighter;
+  padding-left: 10px !important;
+}
+.table > tbody > tr > td {
+  color: #878787;
+  padding-left: 10px !important;
+}
+table {
+  background-color: white;
+}
+
+.dotell-icon {
+  color: #6d8ca0;
+  font-size: 20px;
+}
+
+.header {
+  background-color: #fff;
+  padding-right: 10px;
+}
+
+.header .navbar-right.nav > li > a {
+  color: #587b90;
+  font-size: 18px;
+  padding: 3px 10px 5px;
+}
+
+.header .navbar-right.nav > li > a:hover {
+  border-bottom: 2px solid #587b90;
+}
+
+.add-icon {
+  width: 25px;
+}
+
+/* Modal Styles */
+.adminModal .modal-content {
+  background-color: #fff;
+}
+
+.adminBtn, .adminBtn:hover {
+  background-color: #6a8a9e;
+  border-color: #6a8a9e;
+  color: #fff;
+}
