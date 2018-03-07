@@ -9,40 +9,132 @@ class List extends Component {
         <table className="table table-hover">
           <thead>
             <tr>
-              <th>ID </th>
-              <th>{this.props.translate("admin.sender")}</th>
-              <th>{this.props.translate("admin.phone_num")}</th>
-              <th>Email</th>
-              <th>{this.props.translate("admin.pwd")}</th>
-              <th>{this.props.translate("admin.edit")}</th>
-              <th>{this.props.translate("admin.delete")}</th>
+              <th>ID</th>
+              <th>{this.props.translate("admin.therapist")}</th>
+              <th>Status</th>
+              <th>{this.props.translate("admin.inquiry")}</th>
+              <th>{this.props.translate("admin.personal_id")}</th>
+              <th>E-mail</th>
+              <th>{this.props.translate("admin.city")}</th>
+              <th>{this.props.translate("admin.regions")}</th>
+              <th>{this.props.translate("admin.payment")}</th>
+              <th>{this.props.translate("admin.payment_status")}</th>
+              <th>{this.props.translate("admin.last_login")}</th>
+              <th>{this.props.translate("admin.reservations")}</th>
+              <th></th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
+              <td>T1</td>
               <td>John Doe</td>
-              <td>03256589345</td>
-              <td>john@example.com</td>
-              <td>Attribes</td>
-              <td><a href="#">Edit</a></td>
-              <td><a href="#">Delete</a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>John Doe</td>
-              <td>03256589345</td>
-              <td>john@example.com</td>
-              <td>Attribes</td>
+              <td>Ny</td>
+              <td>2018-03-05</td>
+              <td>871281-1511</td>
+              <td>john.doe@example.com</td>
+              <td>Stockholm</td>
+              <td>Inget</td>
+              <td>Credit Card</td>
+              <td>Reserved</td>
+              <td>2018-03-05 20:13</td>
+              <td>14</td>
               <td><a href="#"><span className="glyphicon glyphicon-pencil dotell-icon" /></a></td>
               <td><a href="#"><span className="glyphicon glyphicon-trash dotell-icon" /></a></td>
             </tr>
             <tr>
-              <td>3</td>
+              <td>T1</td>
               <td>John Doe</td>
-              <td>03256589345</td>
-              <td>john@example.com</td>
-              <td>Attribes</td>
+              <td>Ny</td>
+              <td>2018-03-05</td>
+              <td>871281-1511</td>
+              <td>john.doe@example.com</td>
+              <td>Stockholm</td>
+              <td>Inget</td>
+              <td>Credit Card</td>
+              <td>Reserved</td>
+              <td>2018-03-05 20:13</td>
+              <td>14</td>
+              <td><a href="#"><span className="glyphicon glyphicon-pencil dotell-icon" /></a></td>
+              <td><a href="#"><span className="glyphicon glyphicon-trash dotell-icon" /></a></td>
+            </tr>
+            <tr>
+              <td>T1</td>
+              <td>John Doe</td>
+              <td>Ny</td>
+              <td>2018-03-05</td>
+              <td>871281-1511</td>
+              <td>john.doe@example.com</td>
+              <td>Stockholm</td>
+              <td>Inget</td>
+              <td>Credit Card</td>
+              <td>Reserved</td>
+              <td>2018-03-05 20:13</td>
+              <td>14</td>
+              <td><a href="#"><span className="glyphicon glyphicon-pencil dotell-icon" /></a></td>
+              <td><a href="#"><span className="glyphicon glyphicon-trash dotell-icon" /></a></td>
+            </tr>
+            <tr>
+              <td>T1</td>
+              <td>John Doe</td>
+              <td>Ny</td>
+              <td>2018-03-05</td>
+              <td>871281-1511</td>
+              <td>john.doe@example.com</td>
+              <td>Stockholm</td>
+              <td>Inget</td>
+              <td>Credit Card</td>
+              <td>Reserved</td>
+              <td>2018-03-05 20:13</td>
+              <td>14</td>
+              <td><a href="#"><span className="glyphicon glyphicon-pencil dotell-icon" /></a></td>
+              <td><a href="#"><span className="glyphicon glyphicon-trash dotell-icon" /></a></td>
+            </tr>
+            <tr>
+              <td>T1</td>
+              <td>John Doe</td>
+              <td>Ny</td>
+              <td>2018-03-05</td>
+              <td>871281-1511</td>
+              <td>john.doe@example.com</td>
+              <td>Stockholm</td>
+              <td>Inget</td>
+              <td>Credit Card</td>
+              <td>Sent</td>
+              <td>2018-03-05 20:13</td>
+              <td>14</td>
+              <td><a href="#"><span className="glyphicon glyphicon-pencil dotell-icon" /></a></td>
+              <td><a href="#"><span className="glyphicon glyphicon-trash dotell-icon" /></a></td>
+            </tr>
+            <tr>
+              <td>T1</td>
+              <td>John Doe</td>
+              <td>Ny</td>
+              <td>2018-03-05</td>
+              <td>871281-1511</td>
+              <td>john.doe@example.com</td>
+              <td>Stockholm</td>
+              <td>Inget</td>
+              <td>Credit Card</td>
+              <td>Paid</td>
+              <td>2018-03-05 20:13</td>
+              <td>14</td>
+              <td><a href="#"><span className="glyphicon glyphicon-pencil dotell-icon" /></a></td>
+              <td><a href="#"><span className="glyphicon glyphicon-trash dotell-icon" /></a></td>
+            </tr>
+            <tr>
+              <td>T1</td>
+              <td>John Doe</td>
+              <td>Ny</td>
+              <td>2018-03-05</td>
+              <td>871281-1511</td>
+              <td>john.doe@example.com</td>
+              <td>Stockholm</td>
+              <td>Inget</td>
+              <td>Credit Card</td>
+              <td>Created</td>
+              <td>2018-03-05 20:13</td>
+              <td>14</td>
               <td><a href="#"><span className="glyphicon glyphicon-pencil dotell-icon" /></a></td>
               <td><a href="#"><span className="glyphicon glyphicon-trash dotell-icon" /></a></td>
             </tr>
